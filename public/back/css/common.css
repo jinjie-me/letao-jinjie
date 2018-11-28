@@ -1,3 +1,15 @@
+/* lvha */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration:none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 .body_bg {
   background-color: #222d32;
 }
@@ -11,3 +23,120 @@
 .mt_150 {
   margin-top: 150px;
 }
+.mt_20 {
+  margin-top: 20px;
+}
+.red {
+  color: #a94442;
+}
+/* 首页公共部分 */
+/* 侧边栏 */
+.lt_aside {
+  width: 180px;
+  height: 100%;
+  background-color: #222d32;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  transition: all 1s;
+}
+.lt_aside.hidemenu {
+  left : -180px;
+}
+.lt_aside .brand {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  text-align: center;
+  background-color: #367fa9;
+}
+.lt_aside .brand a {
+  color: #fff;
+}
+.lt_aside .user {
+  padding-top: 30px;
+}
+.lt_aside .user img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.lt_aside .user p {
+  color: #fff;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+}
+.lt_aside .nav {
+  margin-top: 30px;
+}
+.lt_aside .nav a {
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  padding-left: 40px;
+  color: #fff;
+  border-left: 3px solid transparent;
+}
+.lt_aside .nav a.active {
+  background-color: #1d1f21;
+  border-left: 3px solid #006699;
+}
+.lt_aside .nav a i {
+  margin-right: 5px;
+}
+.lt_aside .nav li .child {
+  display: none;
+}
+.lt_aside .nav li .child a{
+  padding-left: 60px;
+}
+
+/* 主体部分 */
+.lt_main {
+  padding-top: 50px;
+  padding-left: 180px;
+  height: 2000px;
+  transition: all 1s;
+}
+.lt_main.hidemenu {
+  padding-left: 0;
+}
+.lt_topbar {
+  width: 100%;
+  height: 50px;
+  background-color: #3c8dbc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 180px;
+  transition: all 1s;
+  z-index: 998;
+}
+.lt_topbar.hidemenu {
+  padding-left: 0;
+}
+.lt_topbar .icon_left,
+.lt_topbar .icon_right {
+  width: 50px; 
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/* echarts图表部分 */
+.echarts_left,
+.echarts_right {
+  width: 48%;
+  height: 400px;
+  background-color: hotpink;
+}
+
