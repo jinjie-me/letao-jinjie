@@ -29,6 +29,14 @@ ul {
 .red {
   color: #a94442;
 }
+/* 表格公共样式 */
+.table.table-bordered th,
+.table.table-bordered td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+
 /* 首页公共部分 */
 /* 侧边栏 */
 .lt_aside {
