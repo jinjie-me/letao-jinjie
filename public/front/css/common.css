@@ -1,0 +1,88 @@
+html,body {
+  width: 100%;
+  height: 100%;
+}
+/* 去除mui自带的ul样式 */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.lt_container {
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+  max-width: 640px;
+  background-color: #f99;
+  margin: 0 auto;
+  padding-top: 45px;
+  padding-bottom: 55px;
+  position: relative;
+  overflow: hidden;
+}
+/* 头部 */
+.lt_header {
+  width: 100%;
+  height: 45px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: #006699;
+}
+.lt_header .icon_left,
+.lt_header .icon_right {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+}
+.lt_header .icon_left {
+  left: 0;
+}
+.lt_header .icon_right {
+  right: 0;
+}
+.lt_header h3 {
+  text-align: center;
+  line-height: 45px;
+  /* 去除mui自带margin */
+  margin: 0; 
+  font-weight: normal;
+  font-size: 20px;
+  color: #fff;
+}
+/* 底部 */
+.lt_footer {
+  width: 100%;
+  height: 55px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #006699;
+}
+.lt_footer ul li {
+  float: left;
+  width: 25%;
+}
+.lt_footer ul li a {
+  display: block;
+  padding-top: 8px;
+  text-align: center;
+  color: #fff;
+}
+.lt_footer ul li a p {
+  color: #fff;
+  /* 去除mui默认p的margin */
+  margin: 0;
+}
+.lt_main {
+  width: 100%;
+  height: 100%;
+  /* 里面的区域滚动是定位的,防止内容溢出 */
+  position: relative;
+}
