@@ -172,8 +172,8 @@ $(function () {
       var paramsStr = $('#form').serialize()
       //key=name&key=name
       paramsStr += "&picAddr1=" + picArr[0].picAddr + "&picName1=" + picArr[0].picName 
-      paramsStr += "&picAddr1=" + picArr[1].picAddr + "&picName1=" + picArr[1].picName 
-      paramsStr += "&picAddr1=" + picArr[2].picAddr + "&picName1=" + picArr[2].picName 
+      paramsStr += "&picAddr2=" + picArr[1].picAddr + "&picName2=" + picArr[1].picName 
+      paramsStr += "&picAddr3=" + picArr[2].picAddr + "&picName3=" + picArr[2].picName 
 
 
       $.ajax({
