@@ -78,6 +78,13 @@ img {
   text-align: center;
   color: #fff;
 }
+/* 点击哪个让哪个图标高亮 */
+.lt_footer ul li a.current {
+  color: orange;
+}
+.lt_footer ul li a.current p {
+  color: orange;
+}
 .lt_footer ul li a p {
   color: #fff;
   /* 去除mui默认p的margin */

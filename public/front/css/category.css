@@ -1,0 +1,44 @@
+/* 左边导航栏 */
+.lt_category_left {
+  float: left;
+  width: 90px;
+  height: 100%;
+  position: relative;
+}
+.lt_category_left li a {
+  display: block;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #666;
+  background-color: #e3e4e5;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.lt_category_left li a.current {
+  background-color: #fff;
+  border-right: 1px solid #fff;
+}
+
+/* 右边导航栏 */
+.lt_category_right {
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+}
+.lt_category_right li {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+}
+.lt_category_right li a {
+  display: block;
+}
+.lt_category_right li a img{
+  width: 70px;
+  height: 50px;
+  margin: 0 auto;
+}
+.lt_category_right li a p {
+  text-align: center;
+}
