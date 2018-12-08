@@ -92,6 +92,9 @@ $(function () {
 
     //4.9重置输入框
     $('.search_input').val('')
+    //5.0跳转到searchList页面
+    location.assign('searchList.html')
+
   })
 
 })
